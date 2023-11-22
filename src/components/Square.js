@@ -1,24 +1,10 @@
 import { useState } from "react";
 
-const Square =({value})=>{
-    // let flag = false;
-    // const [value, setValue] = useState("");
-    // const HandleClick=()=>{
-    //     if(value===""){
-    //         if(flag===false){
-    //             setValue("X");
-    //             flag=true;
-    //         }
-    //         else{
-    //             setValue("O");
-    //             flag=false;
-    //         }
-    //     }
-    // }
-
+const Square =({value, onSquareClick})=>{
     return(
         <button
          className="square"
+         onClick={onSquareClick}
         >
             {value}
         </button>

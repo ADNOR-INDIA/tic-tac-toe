@@ -1,0 +1,11 @@
+/* body{
+    margin: 40px;
+} */
+
+.board-row{
+    background-color: aqua;
+}
+.square{
+    height: 50px;
+    width: 50px;
+}
